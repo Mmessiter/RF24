@@ -1,0 +1,17 @@
+I recently (rather late!) downloaded the most recent 
+RF24 library and updated my radio control project. 
+The transmitter worked perfectly and immediately 
+without any code changes. But when I updated the 
+receiver code, it only partially worked with lots 
+of extra lost packets. So I reverted the receiver 
+to the older library which fixed it immediately. 
+I am puzzled!
+Today I ran some tests with the new library in 
+the receiver code: I increased the packet count 
+between channel hops massively. This reduced 
+error rate by a similar proportion. So it’s 
+clearly changing channel that’s the cause. But 
+why and how to fix it is a mystery. If anyone 
+has a clue I’d really appreciate it!
+
+Malcolm Messiter
